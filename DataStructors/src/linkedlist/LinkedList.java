@@ -20,9 +20,7 @@ public class LinkedList<T> {
     public LinkedList() {
         first = null;
         last = null;
-        
     }
-   
 
     public void insertFirst(Node<T> newNode) {
         if (last == null) {
@@ -31,6 +29,16 @@ public class LinkedList<T> {
         newNode.next = first;
         first = newNode;
 
+    }
+      int numberOfNodes() {
+        int count = 0;
+        Node iterator = first;
+        while (iterator == null) {
+            count++;
+            iterator = iterator.next;
+
+        }
+        return count;
     }
 
     public void insertLast(Node<T> newNode) {

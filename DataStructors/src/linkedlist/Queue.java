@@ -5,8 +5,6 @@
  */
 package linkedlist;
 
-import Array.State;
-
 /**
  *
  * @author 216CS2017
@@ -51,10 +49,6 @@ public class Queue<T> {
         }
         return result;
 
-    }
-
-    public void enqueue(Array.Node<State> e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     

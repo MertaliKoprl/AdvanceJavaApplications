@@ -84,41 +84,13 @@ public class TestClass {
 
         System.out.println(n1.multiplyBottomTwo());
     }
-
-    public static void zain(String[] args) {
-        Stack s = new Stack();
-        s.push(new Node(5));
-        s.push(new Node(3));
-        s.copyStack().printStack();
-
-    }
-
+    
     public static void main(String[] args) {
-        LinkedList dat = new LinkedList();
-
-        ramEater(dat);
-        xaat();
-    }
-
-    public static void ramEater(LinkedList b) {
-        int j = 1;
-        for (int i = 0; i < j; i++) {
-            j = i + 3;
-            Node a = new Node();
-            b.insertFirst(a);
-        }
-
-    }
-
-    public static void xaat() {
-        LinkedList dat = new LinkedList();
-       int j=2;
-        for (int i = 0; i < j; i++) {
-            j = i + 3;
-            Node a = new Node();
-            dat.insertFirst(a);
-        }
-
+        Stack s= new Stack();
+        s.push(new Node(5));
+        s.push(new Node(3));              
+        s.copyStack().printStack();     
+        
     }
 
     public static void swap(DoubleNode first, DoubleNode second) {
