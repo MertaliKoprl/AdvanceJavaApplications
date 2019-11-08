@@ -32,15 +32,15 @@ public class SendWithAttachment {
             MimeMessage msg = new MimeMessage(session);
             msg.setFrom();
             msg.setRecipients(Message.RecipientType.TO, "cse482atisik@gmail.com");
-            msg.setSubject("English");
+            msg.setSubject("TRIAL");
             msg.setSentDate(new Date());
             Multipart mp = new MimeMultipart();
             BodyPart bp = new MimeBodyPart();
-            bp.setText("Do you speak English ?     - EMEKLIAGG");
+            bp.setText("TRIAL");
             mp.addBodyPart(bp);
 
             BodyPart partForAtt = new MimeBodyPart();
-            String filename = "C:\\Users\\Mertali\\Desktop\\AdvJavaSecond\\src\\sendWithAttachment\\emekli.jpg";
+            String filename = "C:\\Users\\Mertali\\Documents\\GitHub\\AdvanceJavaApplications\\AdvJavaSecond\\src\\sendWithAttachment\\emekli.JPG";
             DataSource source = new FileDataSource(filename);
             partForAtt.setDataHandler(new DataHandler(source));
             partForAtt.setFileName(filename);

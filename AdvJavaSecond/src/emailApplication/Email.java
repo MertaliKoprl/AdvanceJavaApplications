@@ -3,6 +3,7 @@ package emailApplication;
 
 import javax.mail.*;
 import javax.mail.internet.MimeMessage;
+import javax.swing.*;
 import java.util.Date;
 import java.util.Properties;
 
@@ -41,6 +42,7 @@ public class Email {
             msg.setText("Bismillahirrahmanirrahim , ilk mail uygulamam hayirli ve ugurlu olsun iyi gunler... Mertali Koprulu");
             Transport.send(msg);
             System.out.println("Message sent!");
+            JOptionPane.showMessageDialog(null,"message sent");
 
         } catch (MessagingException e) {
             e.printStackTrace();

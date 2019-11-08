@@ -26,7 +26,7 @@ public class ReceiveWithAttachment {
 
             int msgCount = inbox.getMessageCount();
             System.out.println("Message count "+msgCount);
-            for(int i=0;i<10;i++){
+            for(int i=0;i<msgCount;i++){
                 System.out.println("Message "+i);
                 Message msg = inbox.getMessage(i+1);
                 Address[] in = msg.getFrom();

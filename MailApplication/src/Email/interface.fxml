@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" prefHeight="720.0" prefWidth="1024.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email.Controller">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="502.0" minWidth="10.0" prefWidth="310.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="736.0" minWidth="10.0" prefWidth="704.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="350.0" minHeight="10.0" prefHeight="46.0" valignment="BOTTOM" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="667.0" minHeight="10.0" prefHeight="664.0" valignment="TOP" vgrow="SOMETIMES" />
+        </rowConstraints>
+   <children>
+       <ToolBar fx:id="barSearch">
+           <items>
+               <Button fx:id="buttonCloseSearch" prefHeight="22.0" prefWidth="24.0">
+               <graphic>
+                  <ImageView fitHeight="14.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/cancel_search.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextField id="searchBoxField" fx:id="searchBoxField" onKeyReleased="#searchMail" prefHeight="25.0" prefWidth="127.0" promptText="Search Here!" />
+
+               <Button fx:id="buttonSearchUp"> <graphic>
+                   <ImageView fitHeight="16.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                       <image>
+                           <Image url="@../icons/up-arrow.png" />
+                       </image>
+                   </ImageView>
+               </graphic></Button>
+               <Button fx:id="buttonSearchDown"> <graphic>
+                   <ImageView fitHeight="14.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                       <image>
+                           <Image url="@../icons/down-arrow.png" />
+                       </image>
+                   </ImageView>
+               </graphic></Button>
+            <Button fx:id="refreshBtn" onAction="#getMails">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/refresh.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="numberOfMessages" />
+           </items>
+       </ToolBar>
+      <GridPane GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="507.0" minHeight="10.0" prefHeight="507.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="327.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="327.0" minHeight="10.0" prefHeight="86.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TableView id="mailList" fx:id="mailList" prefHeight="372.0" prefWidth="310.0">
+               <columns>
+                  <TableColumn prefWidth="308.0" text="Inbox" />
+               </columns>
+            </TableView>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mail Adress:" />
+                  <TextField id="userMailAddress" fx:id="userMailAddress" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+                  <PasswordField fx:id="passwordField">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </PasswordField>
+                  <Button id="loginBtn" fx:id="loginBtn" mnemonicParsing="false" onAction="#loginAction" prefHeight="29.0" prefWidth="61.0" text="Log in" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="452.0" spacing="7.0">
+               <children>
+                  <Button id="replyBtn" fx:id="replyBtn" prefHeight="33.0" prefWidth="42.0">
+                     <graphic>
+                        <ImageView fx:id="replyBtnIcon" fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/reply.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reply">
+                     <HBox.margin>
+                        <Insets left="5.0" right="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="forwardBtn" fx:id="forwardBtn" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fx:id="forwardBtnIcon" fitHeight="24.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/right-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Forward" wrappingWidth="79.078125">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="forwardBtn" fx:id="forwardBtn1" onAction="#newMail" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fx:id="forwardBtnIcon1" fitHeight="31.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/plus.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label text="New Mail">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <VBox fx:id="mailContentPane" layoutX="5.0" prefHeight="586.0" prefWidth="632.0" style="-fx-background-color: lightgray;">
+               <children>
+                  <GridPane prefHeight="161.0" prefWidth="498.0">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="140.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="372.0" minWidth="10.0" prefWidth="367.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="124.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="102.0" minHeight="10.0" prefHeight="56.0" />
+                      <RowConstraints maxHeight="96.0" minHeight="10.0" prefHeight="61.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField id="fromField" fx:id="fromField" prefHeight="4.0" prefWidth="321.0" GridPane.columnIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="From:">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="To:" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Subject:" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets right="15.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <TextField id="toField" fx:id="toField" prefHeight="25.0" prefWidth="338.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField id="subjectField" fx:id="subjectField" prefHeight="4.0" prefWidth="321.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+                  <TextArea fx:id="mailBodyArea" prefHeight="425.0" prefWidth="632.0" />
+               </children></VBox>
+            <HBox alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="593.0" prefHeight="46.0" prefWidth="639.0" spacing="10.0">
+               <children>
+                  <Button id="discardBtn" fx:id="attachMentBtn" onAction="#addFile" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/attach.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add Attachment" wrappingWidth="270.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="discardBtn" fx:id="discardBtn" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/discard.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Discard" wrappingWidth="72.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="sendMailBtn" fx:id="sendMailBtn" onAction="#sendMail" prefHeight="27.0" prefWidth="32.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/sendMail.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Send Mail" wrappingWidth="94.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+      </GridPane>

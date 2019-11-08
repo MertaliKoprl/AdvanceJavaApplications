@@ -12,6 +12,7 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.stage.FileChooser;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.net.URL;
@@ -47,6 +48,8 @@ public class Controller implements Initializable {
         File f = fc.showOpenDialog(((Button) actionEvent.getSource()).getScene().getWindow());
         try {
             Scanner scn = new Scanner(f);
+            System.out.println(f.getName());
+            System.out.println(f.toString());
             while (scn.hasNextLine()) {
 
                 textArea.appendText(scn.nextLine() + "\n");
@@ -97,7 +100,7 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        JOptionPane.showMessageDialog(null,"Message sent!","Mail Information",JOptionPane.INFORMATION_MESSAGE);
     }
 
 
