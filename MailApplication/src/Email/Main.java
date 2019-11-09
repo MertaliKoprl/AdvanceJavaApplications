@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import javax.swing.*;
+
 public class Main extends Application {
 
     @Override
@@ -18,6 +20,7 @@ public class Main extends Application {
         primaryStage.setMaxHeight(740);
         primaryStage.setMinHeight(710);
         primaryStage.show();
+        JOptionPane.showMessageDialog(null, "Login First!", "Log", JOptionPane.WARNING_MESSAGE);
     }
 
 

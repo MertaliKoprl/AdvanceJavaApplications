@@ -37,14 +37,15 @@ public class ReceiveWithAttachment {
                 Multipart mp = (Multipart) msg.getContent();
                 int partCount = mp.getCount();
                     System.out.println("Part Count : "+partCount);
-                boolean buldum  = false;
+
                 for(int j=0;j<partCount;j++){
                     MimeBodyPart bp =(MimeBodyPart) mp.getBodyPart(j); //get the body part
                     if(Part.ATTACHMENT.equalsIgnoreCase(bp.getDisposition())){
                         //so we have a file in this part
                         bp.saveFile(bp.getFileName());
+
                         System.out.println("dosyayi da sakladim");
-                        buldum = true;
+
                     }//ON CLICK OLARAK EKLE !!!
                     else {
                         //body part has some content
@@ -52,7 +53,7 @@ public class ReceiveWithAttachment {
                     }
 
                 }
-                if (buldum) break;
+
 
             }
                 else{

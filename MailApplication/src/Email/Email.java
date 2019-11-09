@@ -11,7 +11,9 @@ public class Email {
     private String toMailAdress;//Sends To
     private String SubjectTitle;
     private String MailBody;
-    private List<MimeBodyPart> attachment;
+    private String SendDate;
+    private String attachment;
+    public MimeBodyPart bp;
     public Email(){
 
 
@@ -24,14 +26,27 @@ public class Email {
 
     }
 
+    public void setAttachment(String attachment) {
+        this.attachment = attachment;
+    }
+
+    public String getAttachment() {
+        return attachment;
+    }
+
     public String getFromMailAdress() {
         return fromMailAdress;
     }
-    public void addAttachment(MimeBodyPart attachment){
-        this.attachment.add(attachment);
 
 
+    public void setSendDate(String sendDate) {
+        SendDate = sendDate;
     }
+
+    public String getSendDate() {
+        return SendDate;
+    }
+
 
     public String getMailBody() {
         return MailBody;
@@ -59,10 +74,6 @@ public class Email {
 
     public void setSubjectTitle(String subjectTitle) {
         SubjectTitle = subjectTitle;
-    }
-
-    public List<MimeBodyPart> getAttachment() {
-        return attachment;
     }
 
 }
