@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -20,10 +26,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<GridPane alignment="center" hgap="10" prefHeight="720.0" prefWidth="1024.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="720.0" prefWidth="1024.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email.Controller">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="502.0" minWidth="10.0" prefWidth="310.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="736.0" minWidth="10.0" prefWidth="704.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="736.0" minWidth="10.0" prefWidth="704.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints maxHeight="350.0" minHeight="10.0" prefHeight="46.0" valignment="BOTTOM" vgrow="SOMETIMES" />
@@ -104,11 +110,11 @@
       </GridPane>
       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
          <children>
-            <HBox alignment="CENTER" prefHeight="46.0" prefWidth="303.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="452.0" spacing="7.0">
                <children>
                   <Button id="replyBtn" fx:id="replyBtn" prefHeight="33.0" prefWidth="42.0">
                      <graphic>
-                        <ImageView fx:id="replyBtnIcon" fitHeight="14.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="replyBtnIcon" fitHeight="19.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../icons/reply.png" />
                            </image>
@@ -117,7 +123,7 @@
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reply">
                      <HBox.margin>
-                        <Insets left="5.0" right="30.0" />
+                        <Insets left="5.0" right="15.0" />
                      </HBox.margin>
                      <font>
                         <Font size="20.0" />
@@ -125,72 +131,57 @@
                   </Text>
                   <Button id="forwardBtn" fx:id="forwardBtn" prefHeight="30.0" prefWidth="43.0">
                      <graphic>
-                        <ImageView fx:id="forwardBtnIcon" fitHeight="15.0" fitWidth="11.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="forwardBtnIcon" fitHeight="24.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../icons/right-arrow.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Forward" wrappingWidth="87.078125">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Forward" wrappingWidth="79.078125">
                      <HBox.margin>
-                        <Insets left="5.0" right="30.0" />
+                        <Insets left="5.0" />
                      </HBox.margin>
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Text>
-               </children>
-            </HBox>
-            <HBox alignment="CENTER_RIGHT" prefHeight="46.0" prefWidth="294.0">
-               <children>
-                  <Button id="discardBtn" fx:id="discardBtn" prefHeight="30.0" prefWidth="43.0">
+                  <Button id="forwardBtn" fx:id="forwardBtn1" onAction="#newMail" prefHeight="30.0" prefWidth="43.0">
                      <graphic>
-                        <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="forwardBtnIcon1" fitHeight="31.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../icons/discard.png" />
+                              <Image url="@../icons/plus.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Discard" wrappingWidth="87.078125">
+                  <Label text="New Mail">
                      <font>
                         <Font size="20.0" />
                      </font>
-                  </Text>
-                  <Button id="sendMailBtn" fx:id="sendMailBtn" prefHeight="27.0" prefWidth="32.0">
-                     <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../icons/sendMail.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Send Mail" wrappingWidth="99.078125">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Text>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Label>
                </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
             </HBox>
          </children>
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
-         <padding>
-            <Insets left="40.0" />
-         </padding>
       </HBox>
       <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <children>
-            <VBox fx:id="mailContentPane" layoutX="5.0" prefHeight="651.0" prefWidth="632.0" style="-fx-background-color: lightgray;">
+            <VBox fx:id="mailContentPane" layoutX="5.0" prefHeight="586.0" prefWidth="632.0" style="-fx-background-color: lightgray;">
                <children>
                   <GridPane prefHeight="161.0" prefWidth="498.0">
                     <columnConstraints>
-                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="133.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="361.0" minWidth="10.0" prefWidth="349.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="143.0" />
+                        <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="206.0" minWidth="10.0" prefWidth="140.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="372.0" minWidth="10.0" prefWidth="367.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="124.0" />
                     </columnConstraints>
                     <rowConstraints>
                       <RowConstraints maxHeight="102.0" minHeight="10.0" prefHeight="56.0" />
@@ -227,8 +218,54 @@
                         <TextField id="subjectField" fx:id="subjectField" prefHeight="4.0" prefWidth="321.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                      </children>
                   </GridPane>
-                  <ScrollPane fx:id="mailBodyPane" prefHeight="490.0" prefWidth="632.0" />
+                  <TextArea fx:id="mailBodyArea" prefHeight="425.0" prefWidth="632.0" />
                </children></VBox>
+            <HBox alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="593.0" prefHeight="46.0" prefWidth="639.0" spacing="10.0">
+               <children>
+                  <Button id="discardBtn" fx:id="attachMentBtn" onAction="#addFile" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/attach.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add Attachment" wrappingWidth="270.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="discardBtn" fx:id="discardBtn" prefHeight="30.0" prefWidth="43.0">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/discard.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Discard" wrappingWidth="72.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Button id="sendMailBtn" fx:id="sendMailBtn" onAction="#sendMail" prefHeight="27.0" prefWidth="32.0">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/sendMail.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Send Mail" wrappingWidth="94.078125">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
          </children>
       </Pane>
    </children>

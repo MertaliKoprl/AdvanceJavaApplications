@@ -20,12 +20,11 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 import javax.swing.*;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.net.URL;
 import java.util.Date;
 import java.util.Properties;
 import java.util.ResourceBundle;
-import java.util.Scanner;
+
 
 public class Controller implements Initializable {
 
@@ -74,7 +73,6 @@ public class Controller implements Initializable {
                 new PropertyValueFactory<Email, String>("fromMailAdress")
         );
 
-
     }
 
     public void sendMail(ActionEvent actionEvent) {
@@ -108,7 +106,7 @@ public class Controller implements Initializable {
 
             BodyPart partForAtt = new MimeBodyPart();
            if(!FileAttached.equals("")) {
-               String filename = FileAttached;//If ThereAre Any
+               String filename = FileAttached;//If There Are Any
                DataSource source = new FileDataSource(filename);
                partForAtt.setDataHandler(new DataHandler(source));
                partForAtt.setFileName(filename);
@@ -121,6 +119,7 @@ public class Controller implements Initializable {
             JOptionPane.showMessageDialog(null,"Message sent!","Mail Information",JOptionPane.INFORMATION_MESSAGE);
             fromField.setEditable(true);
             initialClear();
+            refreshMails();
 
         } catch (MessagingException mex) {
             System.out.println("send failed, exception: " + mex);
@@ -131,11 +130,10 @@ public class Controller implements Initializable {
 
     public void initialClear(){
         this.fromField.setText("");
+        fromField.setStyle("-fx-background-color: white");
         this.toField.setText("");
         this.subjectField.setText("");
         this.mailBodyArea.setText("");
-        getMails();
-
     }
 
 
@@ -151,6 +149,7 @@ public class Controller implements Initializable {
 
 
     public void getMails() {
+
         //Define Protocol
         mailList.setEditable(true);
         Properties props = new Properties();
@@ -206,6 +205,7 @@ public class Controller implements Initializable {
                         }
                     }
                     mailBox.add(mail);
+
                     if (buldum) break;
                 } else {
                     //plain text Content
@@ -218,6 +218,7 @@ public class Controller implements Initializable {
 //            System.out.println("SUBJECT " + msg.getSubject());
 //            System.out.println("CONTENT " + bp.getContent());
             flEmail = new FilteredList<Email>(mailBox, p -> true);
+
             mailList.setItems(flEmail);
         } catch (Exception mex) {
             mex.printStackTrace();
@@ -229,7 +230,7 @@ public class Controller implements Initializable {
             u1.setUsersMailAdress(userMailAddress.getText());
             u1.setUsersPassword(passwordField.getText());
             initialClear();
-
+            getMails();
         }
 
 
@@ -243,7 +244,17 @@ public class Controller implements Initializable {
     }
 
     public void newMail(ActionEvent actionEvent) {
-        initialClear();
+        this.fromField.setText(u1.getUsersMailAdress());
+        fromField.setEditable(false);
+        fromField.setStyle("-fx-background-color: Gray");
+        this.toField.setText("");
+        this.subjectField.setText("");
+        this.mailBodyArea.setText("");
+    }
+
+    public void refreshMails() {
+        mailList.setItems(null);
+        getMails();
     }
 }
 

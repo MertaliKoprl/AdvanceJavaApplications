@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SystemTray/aaaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/.idea/libraries/javax_mail__1_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/Email/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/attach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/cancel_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/discard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/down-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/reply.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/sendMail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/up-arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvJavaSecond/META-INF/AdvJavaSecond.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvJavaSecond/emailApplication/Email$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvJavaSecond/emailApplication/Email$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvJavaSecond/emailApplication/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvJavaSecond/emailApplication/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvJavaSecond/sendWithAttachment/ReceiveWithAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvJavaSecond/sendWithAttachment/ReceiveWithAttachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdvJavaSecond/sendWithAttachment/SendWithAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvJavaSecond/sendWithAttachment/SendWithAttachment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/emailApplication/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailApplication/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileOpener/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileOpener/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sendWithAttachment/ReceiveWithAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sendWithAttachment/ReceiveWithAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sendWithAttachment/SendWithAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sendWithAttachment/SendWithAttachment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/interface.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/interface.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../w52019project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w52019project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/META-INF/w52019project.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sendWithAttachment/ReceiveWithAttachment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="816">
+              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fileOpener/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="1445">
               <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/fileOpener/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,25 +119,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SystemTray/aaaa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state relative-caret-position="986">
+              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#817#825#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#5064#5065#0" expanded="true" />
-                <element signature="e#5110#5111#0" expanded="true" />
-                <element signature="e#5168#5169#0" expanded="true" />
-                <element signature="e#5212#5213#0" expanded="true" />
-                <element signature="e#5259#5260#0" expanded="true" />
-                <element signature="e#5304#5305#0" expanded="true" />
-                <element signature="e#5361#5362#0" expanded="true" />
-                <element signature="e#5404#5405#0" expanded="true" />
-                <element signature="e#5448#5449#0" expanded="true" />
-                <element signature="e#5490#5491#0" expanded="true" />
-                <element signature="e#5544#5545#0" expanded="true" />
-                <element signature="e#5584#5585#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,11 +174,11 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1448" />
+    <option name="y" value="172" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -275,8 +241,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,9 +255,9 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573251645132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573288780554" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w52019project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MailApplication" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -496,17 +462,18 @@
       <workItem from="1572866811747" duration="79000" />
       <workItem from="1572867353010" duration="442000" />
       <workItem from="1573198417808" duration="12707000" />
+      <workItem from="1573287349662" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33656000" />
+    <option name="totallyTimeSpent" value="34267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17697228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23997134" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,7 +482,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918397" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25135428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25135428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,45 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemTray/aaaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#817#825#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#5064#5065#0" expanded="true" />
-            <element signature="e#5110#5111#0" expanded="true" />
-            <element signature="e#5168#5169#0" expanded="true" />
-            <element signature="e#5212#5213#0" expanded="true" />
-            <element signature="e#5259#5260#0" expanded="true" />
-            <element signature="e#5304#5305#0" expanded="true" />
-            <element signature="e#5361#5362#0" expanded="true" />
-            <element signature="e#5404#5405#0" expanded="true" />
-            <element signature="e#5448#5449#0" expanded="true" />
-            <element signature="e#5490#5491#0" expanded="true" />
-            <element signature="e#5544#5545#0" expanded="true" />
-            <element signature="e#5584#5585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sendWithAttachment/SendWithAttachment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sendWithAttachment/ReceiveWithAttachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -835,10 +767,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sendWithAttachment/ReceiveWithAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fileOpener/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="1445">
           <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemTray/aaaa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -848,7 +800,7 @@
     <entry file="file://$PROJECT_DIR$/src/fileOpener/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

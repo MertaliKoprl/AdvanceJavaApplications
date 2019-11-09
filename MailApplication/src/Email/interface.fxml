@@ -62,7 +62,7 @@
                        </image>
                    </ImageView>
                </graphic></Button>
-            <Button fx:id="refreshBtn" onAction="#getMails">
+            <Button fx:id="refreshBtn" onAction="#refreshMails">
                <graphic>
                   <ImageView fitHeight="16.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -84,9 +84,9 @@
           <RowConstraints maxHeight="327.0" minHeight="10.0" prefHeight="86.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TableView id="mailList" fx:id="mailList" prefHeight="372.0" prefWidth="310.0">
+            <TableView id="mailList" fx:id="mailList" prefHeight="505.0" prefWidth="335.0">
                <columns>
-                  <TableColumn prefWidth="308.0" text="Inbox" />
+                  <TableColumn fx:id="headMail" prefWidth="309.0" text="Inbox" />
                </columns>
             </TableView>
             <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
