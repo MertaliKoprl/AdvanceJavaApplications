@@ -9,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
@@ -83,6 +84,7 @@ public class Controller implements Initializable {
     private boolean isLogedIn;
     private boolean isNewMail;
     private boolean isMailSelected;
+    private boolean isReply;
 
 
     @Override
@@ -105,7 +107,7 @@ public class Controller implements Initializable {
 
     public void sendMail(ActionEvent actionEvent) {
         if (isLogedIn) {
-            if (!isMailSelected) {
+            if (!isMailSelected||isReply) {
                 Properties props = new Properties();
                 props.put("mail.smtp.host", "smtp.gmail.com");
                 props.put("mail.smtp.port", "465");
@@ -131,7 +133,10 @@ public class Controller implements Initializable {
                     msg.setSentDate(new Date());
                     Multipart mp = new MimeMultipart();
                     BodyPart bp = new MimeBodyPart();
-                    bp.setText(mailBodyArea.getText());//Puts Context to body part
+                    if(isReply)
+                    bp.setText(mailBodyArea.getText()+"\n this is a Reply");//Puts Context to body part
+                    else
+                        bp.setText(mailBodyArea.getText());//Puts Context to body part
                     mp.addBodyPart(bp);
 
                     BodyPart partForAtt = new MimeBodyPart();
@@ -165,6 +170,7 @@ public class Controller implements Initializable {
 
     public void initialClear() {
         isNewMail = true;
+        isReply=false;
         this.fromField.setText("");
         this.toField.setText("");
         this.subjectField.setText("");
@@ -194,92 +200,98 @@ public class Controller implements Initializable {
 
 
     public void getMails() {
-        if (isLogedIn) {
-            mailBox.clear();
-            //Define Protocol
-            mailList.setEditable(true);
-            Properties props = new Properties();
-            props.setProperty("mail.imaps.partialfetch","false");//props.setProperty("mail.store.protocol", "imaps"); Old Protocol
-            //Create Session
-            Session session = Session.getInstance(props, null);
-            try {
-                Store store = session.getStore("imaps");
-                store.connect("imap.gmail.com", u1.getUsersMailAdress(), u1.getUsersPassword());//"cse482atisik@gmail.com" ,"EmineEkin"
-                System.out.println("Ben Storeum " + store);
-                Folder[] f = store.getDefaultFolder().list();
-                System.out.println("Folder list");
-                for (Folder fd : f)
-                    System.out.println("" + fd.getName());
-                Folder inbox = store.getFolder("INBOX");
-                inbox.open(Folder.READ_ONLY);
-                int msgCount = inbox.getMessageCount();
-                numberOfMessages.setText(String.valueOf(msgCount));
-                System.out.println("Message count " + msgCount);
-                for (int i = 0; i < msgCount; i++) {
-                    Email mail = new Email();
-                    System.out.println("Message " + i);
-                    Message msg = inbox.getMessage(i + 1);
-                    mail.setSendDate(msg.getSentDate().toString());
 
-                    Address[] in = msg.getFrom();
-                    mail.setSubjectTitle(msg.getSubject());
-                    System.out.println("ben mesajım" + i);
-                    for (Address address : in) {
+        mailBox.clear();
+        //Define Protocol
+        mailList.setEditable(true);
+        Properties props = new Properties();
+        props.setProperty("mail.imaps.partialfetch", "false");//props.setProperty("mail.store.protocol", "imaps"); Old Protocol
+        //Create Session
+        Session session = Session.getInstance(props, null);
+        try {
+            Store store = session.getStore("imaps");
+            store.connect("imap.gmail.com", u1.getUsersMailAdress(), u1.getUsersPassword());//"cse482atisik@gmail.com" ,"EmineEkin"
+            isLogedIn = true;
+            System.out.println("Ben Storeum " + store);
+            Folder[] f = store.getDefaultFolder().list();
+            System.out.println("Folder list");
+            for (Folder fd : f)
+                System.out.println("" + fd.getName());
+            Folder inbox = store.getFolder("INBOX");
+            inbox.open(Folder.READ_ONLY);
+            int msgCount = inbox.getMessageCount();
+            numberOfMessages.setText(String.valueOf(msgCount));
+            System.out.println("Message count " + msgCount);
+            for (int i = 0; i < msgCount; i++) {
+                Email mail = new Email();
+                System.out.println("Message " + i);
+                Message msg = inbox.getMessage(i + 1);
+                mail.setSendDate(msg.getSentDate().toString());
 
-                        mail.setFromMailAdress(address.toString());
-                        mail.setToMailAdress(this.userMailAddress.getText());
-                        System.out.println("FROM " + address.toString());
-                    }
-                    if (msg.getContent() instanceof Multipart) {
-                        Multipart mp = (Multipart) msg.getContent();
-                        int partCount = mp.getCount();
-                        System.out.println("Part Count : " + partCount);
-                        boolean buldum = false;
-                        for (int j = 0; j < partCount; j++) {
-                            MimeBodyPart bp = (MimeBodyPart) mp.getBodyPart(j); //get the body part
-                            if (Part.ATTACHMENT.equalsIgnoreCase(bp.getDisposition())) {
-                                //so we have a file in this part
+                Address[] in = msg.getFrom();
+                mail.setSubjectTitle(msg.getSubject());
+                System.out.println("ben mesajım" + i);
+                for (Address address : in) {
 
-                                System.out.println("Ben Fileım" + bp.getFileName());
-                                System.out.println("Ben Contendim : "+bp.getContent());
-                                mail.setAttachment(bp.getFileName());
-                                File sourceAttach = new File(bp.getFileName());
-                                bp.saveFile(sourceAttach);//Saves File
-                                mail.bp=bp;
-                                System.out.println("dosyayi da sakladim");
-
-                            }//ON CLICK OLARAK EKLENEBİLİR !!!
-                            else {
-                                //body part Contendi var demektir
-                                mail.setMailBody(bp.getContent().toString());
-                                System.out.println("Ben Contendim : "+bp.getContent());
-                            }
-                        }
-
-                        mailBox.add(mail);
-                    } else {
-                        //plain text Content
-                        System.out.println("Ben Contendim" + msg.getContent());
-                    }
+                    mail.setFromMailAdress(address.toString());
+                    mail.setToMailAdress(this.userMailAddress.getText());
+                    System.out.println("FROM " + address.toString());
                 }
-                flEmail = new FilteredList<Email>(mailBox, p -> true);
-                mailList.setItems(flEmail);
+                if (msg.getContent() instanceof Multipart) {
+                    Multipart mp = (Multipart) msg.getContent();
+                    int partCount = mp.getCount();
+                    System.out.println("Part Count : " + partCount);
+                    boolean buldum = false;
+                    for (int j = 0; j < partCount; j++) {
+                        MimeBodyPart bp = (MimeBodyPart) mp.getBodyPart(j); //get the body part
+                        if (Part.ATTACHMENT.equalsIgnoreCase(bp.getDisposition())) {
+                            //so we have a file in this part
 
-            } catch (Exception mex) {
-                mex.printStackTrace();
+                            System.out.println("Ben Fileım" + bp.getFileName());
+                            System.out.println("Ben Contendim : " + bp.getContent());
+                            mail.setAttachment(bp.getFileName());
+                            File sourceAttach = new File(bp.getFileName());
+                            bp.saveFile(sourceAttach);//Saves File
+                            System.out.println("Auto Saved to Root File");
+                            mail.bp = bp;
+                            System.out.println("dosyayi da sakladim");
+
+                        }//ON CLICK OLARAK EKLENEBİLİR !!!
+                        else {
+                            //body part Contendi var demektir
+                            mail.setMailBody(bp.getContent().toString());
+                            System.out.println("Ben Contendim : " + bp.getContent());
+                        }
+                    }
+
+                    mailBox.add(mail);
+                } else {
+                    //plain text Content
+                    System.out.println("Ben Contendim" + msg.getContent());
+                }
             }
-        } else {
-            JOptionPane.showMessageDialog(null, "Login First!", "Request", JOptionPane.ERROR_MESSAGE);
 
+            flEmail = new FilteredList<Email>(mailBox, p -> true);
+            mailList.setItems(flEmail);
+
+        } catch (Exception mex) {
+
+            mex.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Wrong id or password!", "Warning", JOptionPane.ERROR_MESSAGE);
+        }
+        if(!isLogedIn){
+            JOptionPane.showMessageDialog(null, "Login First!", "Request", JOptionPane.ERROR_MESSAGE);
         }
     }
 
 
+
+
     public void loginAction(ActionEvent actionEvent) {
         if (!userMailAddress.equals("") && !passwordField.equals("")) {
+            this.u1 = new User("", "");
             u1.setUsersMailAdress(userMailAddress.getText());
             u1.setUsersPassword(passwordField.getText());
-            isLogedIn = true;
             initialClear();
             getMails();
         }
@@ -353,10 +365,15 @@ public class Controller implements Initializable {
         if (isMailSelected || !isNewMail) {
             discardBtnLabel.setVisible(true);
             discardBtn.setVisible(true);
+            initialClear();
+            isReply=true;
+            fromField.setStyle("-fx-background-color: Gray");
             fromField.setText(u1.getUsersMailAdress());
+            fromField.setEditable(false);
             toField.setText(selectedMail.getFromMailAdress());
-            subjectField.setText("");
-            mailBodyArea.setText("");
+            mailBodyArea.setEditable(true);
+            mailBodyArea.setVisible(true);
+            webViewContext.setVisible(false);
 
         } else {
             JOptionPane.showMessageDialog(null, "You Should select Mail First!", "Warning", JOptionPane.WARNING_MESSAGE);
@@ -371,6 +388,9 @@ public class Controller implements Initializable {
             discardBtn.setVisible(true);
             mailBodyArea.setVisible(false);
             webViewContext.setVisible(true);
+            isReply=true;
+            toField.setEditable(true);
+            fromField.setStyle("-fx-background-color: Gray");
             fromField.setText(u1.getUsersMailAdress());
             toField.setText("");
             subjectField.setText(selectedMail.getSubjectTitle());
@@ -415,6 +435,8 @@ public class Controller implements Initializable {
         mailList.getSelectionModel().clearSelection();
         searchBoxField.setText("");
         webViewContext.getEngine().loadContent("");
+        webViewContext.setVisible(false);
+        mailBodyArea.setVisible(true);
         initialClear();
 
     }
@@ -482,6 +504,17 @@ public class Controller implements Initializable {
             ren = false;
         }
         return ren;
+    }
+
+
+    public void opacity(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(0.6);
+    }
+
+    public void opacityOut(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(1);
     }
 
 
