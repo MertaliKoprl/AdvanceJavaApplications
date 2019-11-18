@@ -107,7 +107,7 @@ public class Controller implements Initializable {
 
     public void sendMail(ActionEvent actionEvent) {
         if (isLogedIn) {
-            if (!isMailSelected||isReply) {
+            if (!isMailSelected) {
                 Properties props = new Properties();
                 props.put("mail.smtp.host", "smtp.gmail.com");
                 props.put("mail.smtp.port", "465");
@@ -251,7 +251,7 @@ public class Controller implements Initializable {
                             System.out.println("Ben Contendim : " + bp.getContent());
                             mail.setAttachment(bp.getFileName());
                             File sourceAttach = new File(bp.getFileName());
-                            bp.saveFile(sourceAttach);//Saves File
+                          //  bp.saveFile(sourceAttach);//Saves File  AUTOMATHICALLY
                             System.out.println("Auto Saved to Root File");
                             mail.bp = bp;
                             System.out.println("dosyayi da sakladim");
