@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdvanceJavaWeek7/src/PairTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MailApplication/Email/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MailApplication/Email/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/MessengerServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/RoomNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/body.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/out/production/AdvJavaSecond/sendReceiveObjects/StudentServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/out/production/AdvJavaSecond/sendReceiveObjects/StudentServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/src/sendReceiveObjects/StudentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/src/sendReceiveObjects/StudentServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/src/sendReceiveObjects/StudentfxmlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/src/sendReceiveObjects/StudentfxmlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="306">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,13 +83,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Email/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="231" column="55" selection-start-line="231" selection-start-column="55" selection-end-line="231" selection-end-column="55" />
+            <state relative-caret-position="-95">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="247" column="99" selection-start-line="247" selection-start-column="99" selection-end-line="247" selection-end-column="99" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -130,6 +145,8 @@
       <find>initial</find>
       <find>remov</find>
       <find>newMail</find>
+      <find>mailList</find>
+      <find>mailDisplay</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -154,8 +171,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="-7" />
+    <option name="width" value="1546" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -195,8 +212,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,17 +346,18 @@
       <workItem from="1573499239356" duration="728000" />
       <workItem from="1573761502307" duration="237000" />
       <workItem from="1574071435634" duration="180000" />
+      <workItem from="1574451931492" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54118000" />
+    <option name="totallyTimeSpent" value="54996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1546" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.26695842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16756393" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32928678" />
       <window_info id="Designer" order="3" />
@@ -479,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="247" column="99" selection-start-line="247" selection-start-column="99" selection-end-line="247" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icons/appicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -504,16 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Email/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -524,10 +524,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="247" column="99" selection-start-line="247" selection-start-column="99" selection-end-line="247" selection-end-column="99" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Email/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="231" column="55" selection-start-line="231" selection-start-column="55" selection-end-line="231" selection-end-column="55" />
+        <state relative-caret-position="-95">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

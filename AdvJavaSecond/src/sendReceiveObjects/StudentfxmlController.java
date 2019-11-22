@@ -40,6 +40,7 @@ public class StudentfxmlController implements Initializable {
             toServer.flush();
             Student m = (Student) fromServer.readObject();
             stList.add(m);
+
             nameTF.setText("");
             idTF.setText("");
             deptTf.setText("");
