@@ -42,22 +42,31 @@ public class MessengerServer {
             ObjectInputStream inputFromClient = new ObjectInputStream(socket.getInputStream());
             ObjectOutputStream outputToClient = new ObjectOutputStream(socket.getOutputStream());
 
-            outputToClient.writeObject(rooms.get(1));//Odaları yolla
+            outputToClient.writeObject(rooms.get(0));//Odaları yolla BAŞLANGIÇTA
+            outputToClient.flush();
+            outputToClient.writeObject(rooms.get(1));
+            outputToClient.flush();
             outputToClient.writeObject(rooms.get(2));
-            outputToClient.writeObject(rooms.get(3));
+            outputToClient.flush();
             while (true) {
+                outputToClient.reset();
                 Message s = (Message) inputFromClient.readObject();//Gelen mesajı odalara ekle
-                if(s.getRoomBelong().equals(r1)){
-                    r1.getMessageList().add(s);
-                }else  if(s.getRoomBelong().equals(r2)){
-                    r2.getMessageList().add(s);
-                }else  if(s.getRoomBelong().equals(r3)){
-                    r3.getMessageList().add(s);
+                if(s.getRoomBelong().getRoomName().equals(r1.getRoomName())){
+                    rooms.get(0).getMessageList().add(s);
+                }else  if(s.getRoomBelong().getRoomName().equals(r2.getRoomName())){
+                    rooms.get(1).getMessageList().add(s);
+                }else  if(s.getRoomBelong().getRoomName().equals(r3.getRoomName())){
+                    rooms.get(2).getMessageList().add(s);
                 }
 
-            //    outputToClient.writeObject(rooms.get(1));//Odaları yolla
-            //    outputToClient.writeObject(rooms.get(2));
-              //  outputToClient.writeObject(rooms.get(3));
+                outputToClient.writeObject(rooms.get(0));//Herbir mesaj gelince odaları yenile
+                outputToClient.flush();
+                System.out.println("Rooms get0"+rooms.get(0).getRoomName()+"message"+rooms.get(0).getMessageList().get(0).getMessageText());
+                outputToClient.writeObject(rooms.get(1));
+                outputToClient.flush();
+                outputToClient.writeObject(rooms.get(2));
+                outputToClient.flush();
+
             }
         } catch (Exception ex) {
             System.out.println("Message gönderilemedi");//BURADA DIALOG BOX FIRLAT

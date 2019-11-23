@@ -18,6 +18,7 @@ import java.net.Socket;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Observable;
 import java.util.ResourceBundle;
 
 public class ClientController implements Initializable {
@@ -28,13 +29,13 @@ private ListView<RoomNode> roomList;
 private Text nickNameText;
 
     @FXML
-    private ListView<Message> messageView;
+    private ListView<String> messageView;
     @FXML
     private TextField messageField;
     @FXML
     private Button sendMessageBtn;
 
-    private Message selectedMesssage;
+
     private RoomNode selectedRoom;
     private ObjectOutputStream toServer;
     private ObjectInputStream fromServer;
@@ -45,7 +46,6 @@ private Text nickNameText;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         rmList = FXCollections.observableArrayList();
         roomList.setItems(rmList);
         try{
@@ -59,12 +59,9 @@ private Text nickNameText;
         }
     }
 
-
-
     public void setUserName(String nickName){
         this.nickName=nickName;
         nickNameText.setText(nickName);
-
     }
 
 
@@ -72,13 +69,12 @@ private Text nickNameText;
         selectedRoom=roomList.getSelectionModel().getSelectedItem();
 
         if (selectedRoom != null) {
-            Message s = new Message(nickName, messageField.getText(), selectedRoom);//Put datas from fxml
+            Message s = new Message(messageField.getText(),nickName , selectedRoom);//Put datas from fxml
             try {
                 toServer.writeObject(s);
                 toServer.flush();
-                readRooms();//Gets rooms from server include messages
                 messageField.setText(" ");
-
+                readRooms();//Gets rooms from server include messages
             } catch (IOException ex) {
                 System.out.println("Mesaj Gönderilemedi");
             }
@@ -89,11 +85,17 @@ private Text nickNameText;
         }
     }
     public void readRooms(){
-
-        RoomNode m = null;
+        RoomNode r1 = null;
+        RoomNode r2 = null;
+        RoomNode r3 = null;
+        rmList.clear();
         try {
-            m = (RoomNode) fromServer.readObject();
-                rmList.add(m);
+            r1 = (RoomNode) fromServer.readObject();
+            rmList.add(r1);
+            r2 = (RoomNode) fromServer.readObject();
+            rmList.add(r2);
+            r3 = (RoomNode) fromServer.readObject();
+            rmList.add(r3);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
@@ -102,7 +104,13 @@ private Text nickNameText;
     }
     public void messageDisplay(){
         if(roomList.getSelectionModel().getSelectedItem()!=null){/////////BURADAYIIIMMM
-            selectedRoom=roomList.getSelectionModel().getSelectedItem();
+            this.selectedRoom=roomList.getSelectionModel().getSelectedItem();
+            ObservableList<String> messages= FXCollections.observableArrayList();
+
+            for (Message a:selectedRoom.getMessageList()) {
+                    messages.add(a.getSenderName()+" :"+a.getMessageText());
+            }
+            messageView.setItems(messages);
             //messageView.setItems();
             System.out.println(selectedRoom.toString()+"Sonunda geldim");
         }
