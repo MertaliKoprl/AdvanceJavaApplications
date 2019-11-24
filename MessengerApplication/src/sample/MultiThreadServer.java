@@ -19,6 +19,9 @@ public class MultiThreadServer {
     RoomNode r1;
     RoomNode r2;
     RoomNode r3;
+    RoomNode r4;
+    RoomNode r5;
+    int roomCount=5;
 
     private ArrayList<RoomNode> rooms;
     static List<ObjectOutputStream> clients = new ArrayList<ObjectOutputStream>();
@@ -29,9 +32,13 @@ public class MultiThreadServer {
         r1 = new RoomNode("Bizimkiler");
         r2 = new RoomNode("Okul");
         r3 = new RoomNode("Kuzenler");
+        r4 = new RoomNode("Şileliler Derneği");
+        r5 = new RoomNode("Okçuluk Kulübü");
         rooms.add(r1);
         rooms.add(r2);
         rooms.add(r3);
+        rooms.add(r4);
+        rooms.add(r5);
         try {
             serverSocket = new ServerSocket(8000);
             InetAddress inetAdd = serverSocket.getInetAddress();//Your own IP
@@ -87,6 +94,11 @@ public class MultiThreadServer {
                     rooms.get(1).getMessageList().add(s);
                 } else if (s.getRoomBelong().getRoomName().equals(r3.getRoomName())) {
                     rooms.get(2).getMessageList().add(s);
+                } else if (s.getRoomBelong().getRoomName().equals(r4.getRoomName())) {
+                    rooms.get(3).getMessageList().add(s);
+                }
+                else if (s.getRoomBelong().getRoomName().equals(r5.getRoomName())) {
+                    rooms.get(4).getMessageList().add(s);
                 }
 
                     for (ObjectOutputStream client : clients) {
@@ -106,13 +118,15 @@ public class MultiThreadServer {
 
 
         public void onSendRooms() throws IOException {
-            outputToClient.reset();
-            outputToClient.writeObject(rooms.get(0));//Odaları yolla BAŞLANGIÇTA
-            outputToClient.flush();
-            outputToClient.writeObject(rooms.get(1));
-            outputToClient.flush();
-            outputToClient.writeObject(rooms.get(2));
-            outputToClient.flush();
+            for(int i =0;i<roomCount;i++){
+                outputToClient.reset();
+                outputToClient.writeObject(rooms.get(i));//Odaları yolla BAŞLANGIÇTA
+                outputToClient.flush();
+
+
+            }
+
+
         }
     }
 

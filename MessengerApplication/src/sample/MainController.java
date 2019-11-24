@@ -8,6 +8,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.input.MouseDragEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -46,9 +49,22 @@ private Button startBtn;
         Stage stage = new Stage();
         stage.setScene(new Scene(p));
         stage.show();
+        Image icon = new Image("https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Mail.png");
+        stage.getIcons().add(icon);
+        stage.setTitle("Welcome to Messenger by Merto - :"+nickName);
         Stage stageNow = (Stage) startBtn.getScene().getWindow();
         stageNow.close();
 
 
+    }
+
+    public void opacity(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(0.6);
+    }
+
+    public void opacityOut(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(1);
     }
 }

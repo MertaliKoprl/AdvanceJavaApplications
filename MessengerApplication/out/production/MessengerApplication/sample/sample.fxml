@@ -13,9 +13,9 @@
    <children>
       <VBox alignment="TOP_CENTER" layoutX="162.0" layoutY="122.0" prefHeight="356.0" prefWidth="476.0">
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Messenger App" textAlignment="CENTER" wrappingWidth="476.951171875">
+            <Text fill="#2e3192" strokeType="OUTSIDE" strokeWidth="0.0" text="Messenger App" textAlignment="CENTER" wrappingWidth="476.951171875">
                <font>
-                  <Font size="32.0" />
+                  <Font name="Serif Regular" size="42.0" />
                </font>
             </Text>
             <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
@@ -23,20 +23,34 @@
                   <Insets top="60.0" />
                </VBox.margin>
                <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nickname :" wrappingWidth="107.787109375">
+                  <Text fill="#7ac143" strokeType="OUTSIDE" strokeWidth="0.0" text="Nickname :" wrappingWidth="107.787109375">
                      <HBox.margin>
                         <Insets left="50.0" />
                      </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
                   </Text>
-                  <TextField fx:id="nickNameField" prefHeight="25.0" prefWidth="173.0" promptText="Enter Nickname" />
+                  <TextField fx:id="nickNameField" prefHeight="25.0" prefWidth="173.0" promptText="Enter Nickname">
+                     <font>
+                        <Font size="15.0" />
+                     </font></TextField>
                </children>
             </HBox>
-            <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startApp" prefHeight="63.0" prefWidth="371.0" text="Button">
+            <Button fx:id="startBtn" mnemonicParsing="false" onAction="#startApp" onMouseDragEntered="#opacity" onMouseDragExited="#opacityOut" prefHeight="63.0" prefWidth="371.0" style="-fx-background-color: #00aeef;" text="Log in" textFill="WHITE">
                <VBox.margin>
                   <Insets top="50.0" />
                </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
             </Button>
          </children>
       </VBox>
+      <Text layoutX="622.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© by Mertali K. ™" wrappingWidth="163.787109375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
    </children>
 </Pane>

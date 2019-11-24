@@ -7,16 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../MailApplication/src/icons/appicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/interface.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/interface.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/src/icons/appicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/appicon/appicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Client2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/ClientController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/ClientController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/body.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/body.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/body.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/body.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="265" column="40" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
+            <state relative-caret-position="730">
+              <caret line="277" column="1" lean-forward="true" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#buttonClicked#0;class#Controller#0" />
@@ -90,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="136">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,11 +152,10 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="172" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1435" />
+    <option name="width" value="492" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -158,7 +167,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +189,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +204,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573383057619" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MailApplication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -319,16 +328,19 @@
       <workItem from="1573379197972" duration="83000" />
       <workItem from="1573379293630" duration="1128000" />
       <workItem from="1573383160673" duration="11000" />
+      <workItem from="1574581918604" duration="340000" />
+      <workItem from="1574582904561" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40719000" />
+    <option name="totallyTimeSpent" value="41174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
+    <frame x="1435" y="0" width="492" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17120343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3402778" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -483,21 +495,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="265" column="40" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#buttonClicked#0;class#Controller#0" />
-            <element signature="method#calculated#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -510,6 +510,18 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="144" selection-start-line="59" selection-start-column="144" selection-end-line="59" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="277" column="1" lean-forward="true" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buttonClicked#0;class#Controller#0" />
+            <element signature="method#calculated#0;class#Controller#0" />
+          </folding>
         </state>
       </provider>
     </entry>

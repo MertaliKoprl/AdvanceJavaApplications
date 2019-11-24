@@ -9,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 
 import java.io.IOException;
@@ -32,6 +33,8 @@ public class ClientController implements Initializable {
     private TextField messageField;
     @FXML
     private Button sendMessageBtn;
+    @FXML
+    private Text roomNameClicked;
     private RoomNode selectedRoom;
     private ObjectOutputStream toServer;
     private ObjectInputStream fromServer;
@@ -48,30 +51,20 @@ public class ClientController implements Initializable {
             Socket s = new Socket("localhost", 8000);
             toServer = new ObjectOutputStream(s.getOutputStream());
             fromServer = new ObjectInputStream(s.getInputStream());
-
             Thread messageHandling = new Thread() {
                 public void run() {
                     while (true) {
                         try {
                             this.sleep(5500);
-                                    readRooms();
+                            readRooms();
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-
-
                     }
-
-
-
                 }
             };
-
-
             messageHandling.setDaemon(true);
             messageHandling.start();
-
-
         } catch (Exception ex) {
             System.out.println("soket yaratirken yanlis bisey oldu");
         }
@@ -89,14 +82,12 @@ public class ClientController implements Initializable {
             } else {
                 continue;
             }
-
         }
         return null;
     }
 
     public void sendMessage(ActionEvent actionEvent) {
         selectedRoom = findRoom(roomList.getSelectionModel().getSelectedItem());
-
         if (selectedRoom != null) {
             Message s = new Message(messageField.getText(), nickName, selectedRoom);//Put datas from fxml
             try {
@@ -109,7 +100,6 @@ public class ClientController implements Initializable {
             }
         } else {
             System.out.println("No room selected");
-
         }
     }
 
@@ -119,7 +109,6 @@ public class ClientController implements Initializable {
                 if (roomList.getItems().get(i).equals(selectedRoom.getRoomName())) {
                     roomList.scrollTo(i);
                     roomList.getSelectionModel().select(i);
-
                     messageDisplay();
                 }
             }
@@ -130,14 +119,20 @@ public class ClientController implements Initializable {
         RoomNode r1 = null;
         RoomNode r2 = null;
         RoomNode r3 = null;
+        RoomNode r4 = null;
+        RoomNode r5 = null;
         try {
-            r1 = (RoomNode) fromServer.readObject();
-            roomsArray.add(r1);
+            r1 = (RoomNode) fromServer.readObject();        //WE CAN GET ROOM# FROM SERVER AND MAKE LOOP THEN FILL INSIDE
+            roomsArray.add(r1);                             //THIS IS ALSO OK FOR NOW :)
             r2 = (RoomNode) fromServer.readObject();
             roomsArray.add(r2);
             r3 = (RoomNode) fromServer.readObject();
             roomsArray.add(r3);
-            rmList.setAll(r1.getRoomName(), r2.getRoomName(), r3.getRoomName());
+            r4 = (RoomNode) fromServer.readObject();
+            roomsArray.add(r4);
+            r5 = (RoomNode) fromServer.readObject();
+            roomsArray.add(r5);
+            rmList.setAll(r1.getRoomName(), r2.getRoomName(), r3.getRoomName(),r4.getRoomName(),r5.getRoomName());
             findLastSelectedGroup();
         } catch (IOException e) {
             e.printStackTrace();
@@ -148,19 +143,18 @@ public class ClientController implements Initializable {
     }
 
     public void messageDisplay() {
-
         if (roomList.getSelectionModel().getSelectedItem() != null) {
             this.selectedRoom = findRoom(roomList.getSelectionModel().getSelectedItem());
             ObservableList<String> messages = FXCollections.observableArrayList();
-
             for (Message a : selectedRoom.getMessageList()) {
                 messages.add(a.getSenderName() + " :" + a.getMessageText());
             }
             System.out.println(selectedRoom.toString() + "Sonunda geldim");
             Platform.runLater(() -> {
+                roomNameClicked.setText(selectedRoom.getRoomName().toUpperCase());
                 messageView.setItems(messages);
+                messageView.setStyle("-fx-fill: gray");
             });
-
 
 
         }
@@ -168,4 +162,13 @@ public class ClientController implements Initializable {
 
     }
 
+    public void opacity(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(0.6);
+    }
+
+    public void opacityOut(MouseEvent mouseEvent) {
+        Button button = (Button) mouseEvent.getSource();
+        button.setOpacity(1);
+    }
 }
