@@ -77,7 +77,9 @@ public class Controller implements Initializable {
     Button attachMentBtn;
     @FXML
     Button saveAttachedFileBtn;
+
     FilteredList<Email> flEmail;
+
     Email selectedMail;
     private ObservableList<Email> mailBox = FXCollections.observableArrayList();
     private String FileAttached = "";
