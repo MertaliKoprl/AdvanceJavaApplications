@@ -1,0 +1,65 @@
+package EclipseLink;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
+
+
+@Entity
+public class Customer implements Serializable {
+
+    //@OneToOne (cascade=CascadeType.PERSIST) YAPARSAN HER HANGI BIR TABLOYA YAPILAN BIR EKLEME DIGER TABLOLARADA EKLENIR !
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO) //IT MEANS THE FIELD IS AUTO INCREMENT KEY
+    private String custId;    //ID Annotation Primary Keyi belirler !
+
+    private String firstName;
+    private String lastName;
+
+    public Customer() {
+    }
+
+    public Customer(String custId, String firstName, String lastName) {
+        this.custId = custId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    //accessor/mutators
+
+    public String getCustId() {
+        return custId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setCustId(String custId) {
+        this.custId = custId;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFullName(){
+        StringBuilder sb=new StringBuilder();
+        sb.append(this.firstName);
+        sb.append(" ");
+        sb.append(this.lastName);
+        return sb.toString();
+
+
+    }
+}
