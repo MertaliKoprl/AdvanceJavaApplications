@@ -1,12 +1,12 @@
 package EclipseLink;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 
+//Kullanacagimiz zaman cagiricagiz! Statictir !!!
+//@NamedQuery( name="findAllCustomers" , query="Select p from Customer p")
+@NamedQuery(name="filterbyName" ,query = "Select c from Customer c where c.firstName= :namee")
 @Entity
 public class Customer implements Serializable {
 
@@ -60,6 +60,6 @@ public class Customer implements Serializable {
         sb.append(this.lastName);
         return sb.toString();
 
-
     }
+
 }

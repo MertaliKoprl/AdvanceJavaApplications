@@ -34,7 +34,7 @@ public class Test {
         System.out.println(res.getFullName());
     }
 
-    public static void kain(String[] args) {
+    public static void kain(String[] args) {        // 1 kere kullanacagim query ise bunu KULLAN !
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         //Query a = em.createNativeQuery("Select custId From ..."); ICINE DIREK QUERY YAZILABILIR NAMED QUERY HER ZAMAN DAHA IYIDIR PROJE BOLUMU ACISINDAN
@@ -45,7 +45,7 @@ public class Test {
         lw.setItems(o1);
     }
 
-    public static void main(String[] args) {
+    public static void aain(String[] args) {
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         TypedQuery<Customer> returned = em.createQuery("select C from Customer C where C.firstName = :fName",Customer.class);
@@ -53,6 +53,30 @@ public class Test {
         List<Customer> listOfCustomers= returned.getResultList();
         System.out.println(listOfCustomers.size());
     }
+
+    public static void bain(String[] args) {//Named query test
+        EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        EntityManager em= emf.createEntityManager();
+        Query q= em.createNamedQuery("findAllCustomers");
+        List<Customer> r=q.getResultList();
+
+        em.close();
+        //Entitiy Manageri kapatmayi unutma !!
+    }
+
+    public static void main(String[] args) {//Named Query with parameter
+        EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
+        EntityManager em= emf.createEntityManager();
+        Query q= em.createNamedQuery("filterbyName");
+        q.setParameter("namee","Mertali");
+        List<Customer> r=q.getResultList();
+        System.out.println(r.get(0).getFullName());
+        em.close();
+    }
+
+
+
+
 
 
 
