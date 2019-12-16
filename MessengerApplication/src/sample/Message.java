@@ -11,7 +11,6 @@ public class Message implements Serializable {
     private int addedByServer;
     private RoomNode roomBelong;
 
-
     public Message(String messageText,String senderName,RoomNode roomBelong){
         this.messageText=messageText;
         this.senderName=senderName;

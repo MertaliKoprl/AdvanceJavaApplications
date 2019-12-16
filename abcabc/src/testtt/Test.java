@@ -1,7 +1,17 @@
 package testtt;
 
+import javafx.beans.InvalidationListener;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.ListChangeListener;
+import javafx.collections.ObservableList;
+
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Test {
 
@@ -23,7 +33,7 @@ public class Test {
 
     }
 
-    public static void main(String[] args) {
+    public static void kain(String[] args) {
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         EntityTransaction tx= em.getTransaction();
@@ -31,6 +41,9 @@ public class Test {
         Query a = em.createQuery("Select c from UserEntity c");
         List<UserEntity> res=  a.getResultList();
         System.out.println(res.size());
+    }
+
+    public static void main(String[] args) {
 
     }
 }

@@ -2,29 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba15b04a-269a-41f4-a584-14699d988cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/libraries/mysql_connector_java_5_1_481.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/libraries/mysql_connector_java_5_1_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/DataBaseUserInterfaceTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/DataBaseUserInterfaceTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/src/Test/dBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/src/Test/dBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/out/production/JavaDataBase/dBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDataBase/out/production/JavaDataBase/dBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/src/dBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDataBase/src/dBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/out/production/DataBaseMonitoring/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/out/production/DataBaseMonitoring/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyMailApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/asd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/browser/BrowserMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/browser/MyBrowserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/browser/mybrowser.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/filedialog/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/filedialog/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/filedialog/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/Client2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/HostInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/MultiThreadServer$HandleAClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/MultiThreadServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/out/production/w4/networking/MyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/browser/BrowserMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/browser/MyBrowserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/browser/mybrowser.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/filedialog/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/filedialog/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/filedialog/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/networking/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/networking/Client2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/networking/HostInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/networking/MultiThreadServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/src/networking/MyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w4/w4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/libraries/javax_mail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/5.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/getFile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/datagram/DatagramClientConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/datagram/DatagramclientfxmlController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/datagram/DatagramguiMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/datagram/MyDatagramServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/datagram/datagramclientfxml.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/BasicReceiveMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/BasicSendMail$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/BasicSendMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/EmailListener$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/EmailListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/EmailListener$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/EmailListener$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/EmailListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/ReceiveWithAttachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/SendWithAttachment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/email/SendWithAttachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/sendreceiveobjects/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/sendreceiveobjects/StudentClientMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/sendreceiveobjects/StudentServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/sendreceiveobjects/StudentfxmlController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/sendreceiveobjects/studentfxml.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/systemtray/SystemTrayDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/systemtray/SystemTrayDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/systemtray/SystemTrayDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/systemtray/SystemTrayDemo$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/out/production/w52019project/systemtray/SystemTrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/datagram/DatagramClientConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/datagram/DatagramclientfxmlController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/datagram/DatagramguiMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/datagram/MyDatagramServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/datagram/datagramclientfxml.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/email/BasicReceiveMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/email/BasicSendMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/email/EmailListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/email/ReceiveWithAttachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/email/SendWithAttachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/sendreceiveobjects/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/sendreceiveobjects/StudentClientMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/sendreceiveobjects/StudentServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/sendreceiveobjects/StudentfxmlController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/sendreceiveobjects/studentfxml.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/src/systemtray/SystemTrayDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w52019project/w52019project.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +105,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/asd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,10 +125,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="172" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="30" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,7 +146,7 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,7 +160,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576332514849" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaDataBase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AdvJavaSecond" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -140,28 +201,25 @@
       <option name="presentableId" value="Default" />
       <updated>1576332336882</updated>
       <workItem from="1576332339911" duration="255000" />
+      <workItem from="1576492661319" duration="52000" />
+      <workItem from="1576492746006" duration="16000" />
+      <workItem from="1576493006638" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255000" />
+    <option name="totallyTimeSpent" value="346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
@@ -169,27 +227,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/asd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/asd.java" />
   </component>
 </project>

@@ -99,9 +99,10 @@ public class Controller implements Initializable {
                     String nameofColumn = resultSet.getMetaData().getColumnName(i + 1);
                     columnNames.add(nameofColumn);
                     TableColumn tc = new TableColumn<>(nameofColumn);
-                    tc.setCellValueFactory((Callback<CellDataFeatures<ObservableList, String>, ObservableValue<String>>) param ->
+                    tc.setCellValueFactory((Callback<CellDataFeatures<ObservableList, Object>, ObservableValue<String>>) param ->
                             new SimpleStringProperty(param.getValue().get(w).toString())
-                    );
+
+                );
                     tableView.getColumns().addAll(tc);//PUTS COLUMN NAMES TO THE TABLE
                 }
                 ObservableList<String> row;
