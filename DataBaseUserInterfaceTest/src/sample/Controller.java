@@ -55,7 +55,9 @@ public class Controller implements Initializable {
     }
 
     private void writeQueries() throws SQLException {//PREPARESTATEMENT THAT HELP U TO NOT
-        viewGrades= connection.prepareStatement("select grade from enrollment where ssn=? and courseID=?");
+        String a ="a";
+        String b ="b";
+        viewGrades= connection.prepareStatement("select grade from enrollment where a=? and b=?");
 
     }
 

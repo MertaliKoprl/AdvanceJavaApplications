@@ -11,10 +11,12 @@ private static Connection connection;
 
         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms","root","");
         System.out.println("Database Connected");
-
         metaData();
+
+
+
         Statement statmenet = connection.createStatement();
-        ResultSet resultSet= statmenet.executeQuery("select *  from cms.articles");
+        ResultSet resultSet= statmenet.executeQuery("select username  from userinfos");
 
         while(resultSet.next()){
             System.out.println(resultSet.getString(1)+"/t"+resultSet.getString(2));

@@ -194,8 +194,8 @@ public class Controller implements Initializable {
             File f = fc.showOpenDialog(((javafx.scene.control.Button) actionEvent.getSource()).getScene().getWindow());
             if (f != null) {
                 FileAttached = f.toString();
-                JOptionPane.showMessageDialog(null, "File Attached!", "Mail Information", JOptionPane.INFORMATION_MESSAGE);
-            }
+               JOptionPane.showMessageDialog(null, "File Attached!", "Mail Information", JOptionPane.INFORMATION_MESSAGE);
+             }
         } else
             JOptionPane.showMessageDialog(null, "Login First!", "Request", JOptionPane.ERROR_MESSAGE);
     }

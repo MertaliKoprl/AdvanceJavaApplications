@@ -27,6 +27,7 @@ public class dBConnection {
     }
     private static void metaData() throws SQLException {
         DatabaseMetaData dbMetaData= connection.getMetaData();//hangi tabloya kimler baglaniyor , authorization
+
         //Can be setted in here !!!
 
 
