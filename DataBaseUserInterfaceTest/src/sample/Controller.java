@@ -32,8 +32,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
             ssnObs= FXCollections.observableArrayList();
-                courseCodeObs= FXCollections.observableArrayList();
-
+            courseCodeObs= FXCollections.observableArrayList();
 
     }
 

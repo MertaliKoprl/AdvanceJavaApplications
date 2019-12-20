@@ -99,8 +99,14 @@ public class Controller implements Initializable {
                     String nameofColumn = resultSet.getMetaData().getColumnName(i + 1);
                     columnNames.add(nameofColumn);
                     TableColumn tc = new TableColumn<>(nameofColumn);
-                    tc.setCellValueFactory((Callback<CellDataFeatures<ObservableList, Object>, ObservableValue<String>>) param ->
-                            new SimpleStringProperty(param.getValue().get(w).toString())
+                    tc.setCellValueFactory((Callback<CellDataFeatures<ObservableList, Object>, ObservableValue<String>>) param -> {
+                        if (param.getValue().get(w) instanceof String){
+                        return  new SimpleStringProperty(param.getValue().get(w).toString());
+                    }
+                        else {
+                        return new SimpleStringProperty("Null");
+                        }
+                    }
 
                 );
                     tableView.getColumns().addAll(tc);//PUTS COLUMN NAMES TO THE TABLE
@@ -412,9 +418,11 @@ public class Controller implements Initializable {
             }
         }
         try {
-            String updateQ = "update " + tableName + " set " + sb3.toString() + " where " + primaryKeyName + " = " + oldValueOfPrimaryKey;
+            String updateQ = "update " + tableName + " set " + sb3.toString() + " where " + primaryKeyName + " = ?";
             System.out.println("I am update Q " + updateQ);
             PreparedStatement updateQuery = connection.prepareStatement(updateQ);
+            updateQuery.setString(columnNames.size()+1,oldValueOfPrimaryKey);//WHERE CLAUSE INSERTED !!
+            System.out.println("I AM QUERY WITH WHERE CLAUSE"+updateQuery.toString());
             for (int j = 0; j < columnNames.size(); j++) {
                 updateQuery.setString(j + 1, parameters.get(j));
             }
