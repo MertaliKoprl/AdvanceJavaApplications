@@ -12,11 +12,10 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.net.URL;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
@@ -35,11 +34,11 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        prepareTables();
         enrollmentObservableList= FXCollections.emptyObservableList();
         studentObservableList= FXCollections.emptyObservableList();
         courseObservableList= FXCollections.emptyObservableList();
         connectDB();
+        prepareTables();
         fillTables();
     }
 
@@ -52,6 +51,10 @@ public class Controller implements Initializable {
     }
 
     private void fillTables() {
+
+        Query rs1= em.createQuery("Select * from Course ");
+        Query rs2=  em.createQuery("Select * from Enrollment ");
+        Query rs3=  em.createQuery("Select * from Student ");
 
 
 

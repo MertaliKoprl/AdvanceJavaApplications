@@ -116,7 +116,7 @@ public class Controller implements Initializable {
                     row = FXCollections.observableArrayList();
                     for (int j = 1; j <= resultSet.getMetaData().getColumnCount(); j++) {//DATAS IN THE ROWS
                         row.add(resultSet.getString(j));
-                        numOfRow++;
+                        numOfRow++;//Will be use for function buttons like up down first last ...
                     }
 
                     data.add(row);

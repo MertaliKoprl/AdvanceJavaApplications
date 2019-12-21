@@ -14,6 +14,7 @@ public class Test {
         EntityTransaction etx = em.getTransaction();
         etx.begin();
         Course c = new Course ("CSE482","advanced java programming",3);
+
         em.persist(c);
         etx.commit();
         em.close();
