@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Test {
 
-    public static void vain(String[] args) {
+    public static void samain(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em = emf.createEntityManager();
         EntityTransaction et = em.getTransaction();
@@ -34,37 +34,43 @@ public class Test {
         System.out.println(res.getFullName());
     }
 
-    public static void kain(String[] args) {        // 1 kere kullanacagim query ise bunu KULLAN !
+    public static void cain(String[] args) {        // 1 kere kullanacagim query ise bunu KULLAN !
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
-        //Query a = em.createNativeQuery("Select custId From ..."); ICINE DIREK QUERY YAZILABILIR NAMED QUERY HER ZAMAN DAHA IYIDIR PROJE BOLUMU ACISINDAN
+       // Query a = em.createNativeQuery("Select custId From ..."); //ICINE DIREK QUERY YAZILABILIR NAMED QUERY HER ZAMAN DAHA IYIDIR PROJE BOLUMU ACISINDAN
         Query a = em.createQuery("Select c from Customer c ");
         List<Customer> res=  a.getResultList();
-        ListView<Customer> lw= new ListView<>();
         ObservableList<Customer> o1= FXCollections.observableArrayList(res);
-        lw.setItems(o1);
+        System.out.println(res.size());
+        o1.forEach(b->{
+            System.out.println(b.getFullName());
+        });
     }
 
-    public static void aain(String[] args) {
+    public static void eain(String[] args) {
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         TypedQuery<Customer> returned = em.createQuery("select C from Customer C where C.firstName = :fName",Customer.class);
         returned.setParameter("fName","Mertali");
         List<Customer> listOfCustomers= returned.getResultList();
         System.out.println(listOfCustomers.size());
+        listOfCustomers.forEach(p-> System.out.println(p.getFullName()));
     }
 
-    public static void bain(String[] args) {//Named query test
+    public static void main(String[] args) {//Named query test
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         Query q= em.createNamedQuery("findAllCustomers");
         List<Customer> r=q.getResultList();
-
+        //r.forEach((r1)->r1.getFullName());
+        r.forEach(p->{
+            System.out.println(p.printCustom(a -> "Id: "+a.getCustId()+" , "+a.getFullName() ));
+        }  );
         em.close();
         //Entitiy Manageri kapatmayi unutma !!
     }
 
-    public static void main(String[] args) {//Named Query with parameter
+    public static void mcain(String[] args) {//Named Query with parameter
         EntityManagerFactory emf= Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManager em= emf.createEntityManager();
         Query q= em.createNamedQuery("filterbyName");

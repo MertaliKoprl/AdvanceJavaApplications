@@ -1,5 +1,6 @@
 package view;
 
+
 import course.Course;
 
 import javax.persistence.EntityManager;

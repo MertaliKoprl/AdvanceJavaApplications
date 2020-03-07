@@ -2,26 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d6f9fe6-c353-42b5-96fc-3fe809973343" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/eclipselink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/ProjectStudent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntityPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/display.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/AdvanceJavaWeek7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/src/PairTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseDemo/view/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseDemo/view/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseDemo/view/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CourseDemo/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseDemo/view/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/Test/dBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/Test/dBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/out/production/DataBaseUserInterfaceTest/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +68,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="95" lean-forward="true" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
+            <state relative-caret-position="238">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-451">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/display.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/course/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/course/Enrollment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-281">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +155,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
-    <option name="y" value="-17" />
-    <option name="width" value="1934" />
-    <option name="height" value="1023" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,8 +209,8 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="db4ce2da-15fd-474d-b585-d5a94f369558" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576874945773" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Advance/untitled1/untitled1" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578858751686" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataBaseMonitoring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -171,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.Main" />
       <module name="CourseDemo" />
@@ -200,8 +268,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -220,16 +288,19 @@
       <workItem from="1576874474819" duration="469000" />
       <workItem from="1576874995967" duration="608000" />
       <workItem from="1576927211968" duration="551000" />
+      <workItem from="1577015574028" duration="16000" />
+      <workItem from="1577426986494" duration="3872000" />
+      <workItem from="1578858732668" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6107000" />
+    <option name="totallyTimeSpent" value="10030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -239,7 +310,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25785482" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0964247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -247,7 +318,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -268,6 +339,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/course/CourseEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/course/EnrollmentEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/course/EnrollmentPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -275,10 +357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/course/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="484">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -287,18 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/Enrollment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-587">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/course/EnrollmentPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="-281">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -307,18 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="-187">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -333,20 +395,20 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/view/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/view/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="95" lean-forward="true" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
+        <state relative-caret-position="-451">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

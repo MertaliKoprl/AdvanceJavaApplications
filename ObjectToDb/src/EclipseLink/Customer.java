@@ -2,11 +2,14 @@ package EclipseLink;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.function.Function;
 
 
 //Kullanacagimiz zaman cagiricagiz! Statictir !!!
-//@NamedQuery( name="findAllCustomers" , query="Select p from Customer p")
-@NamedQuery(name="filterbyName" ,query = "Select c from Customer c where c.firstName= :namee")
+@NamedQueries({
+        @NamedQuery( name="findAllCustomers" , query="Select p from Customer p"),
+        @NamedQuery(name="filterbyName" ,query = "Select c from Customer c where c.firstName= :namee")
+})
 @Entity
 public class Customer implements Serializable {
 
@@ -61,5 +64,10 @@ public class Customer implements Serializable {
         return sb.toString();
 
     }
+
+    public String printCustom(Function<Customer, String> f){
+        return f.apply(this);
+    }
+
 
 }

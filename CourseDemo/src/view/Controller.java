@@ -38,7 +38,7 @@ public class Controller implements Initializable {
         studentObservableList= FXCollections.emptyObservableList();
         courseObservableList= FXCollections.emptyObservableList();
         connectDB();
-        prepareTables();
+        //prepareTables();
         fillTables();
     }
 
@@ -55,7 +55,7 @@ public class Controller implements Initializable {
         Query rs1= em.createQuery("Select * from Course ");
         Query rs2=  em.createQuery("Select * from Enrollment ");
         Query rs3=  em.createQuery("Select * from Student ");
-
+        System.out.println(rs1.getResultList().get(1));
 
 
     }

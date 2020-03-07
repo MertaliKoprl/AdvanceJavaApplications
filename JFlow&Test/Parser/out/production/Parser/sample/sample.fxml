@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+               <BorderPane prefHeight="309.0" prefWidth="673.0">
+                   <center>
+                       <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <children>
+                               <TextArea fx:id="textArea" prefHeight="507.0" prefWidth="485.0" />
+                               <VBox prefHeight="370.0" prefWidth="226.0">
+                                   <children>
+                                       <Button fx:id="openFile" contentDisplay="CENTER" mnemonicParsing="false" onAction="#openFile" prefHeight="25.0" prefWidth="144.0" text="Open File" />
+                                       <CheckBox fx:id="boldCheck" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fontType" text="bold">
+                                           <VBox.margin>
+                                               <Insets top="15.0" />
+                                           </VBox.margin>
+                                       </CheckBox>
+                                       <RadioButton fx:id="redRadio" mnemonicParsing="false" onAction="#changeFontColor" text="red">
+                                           <VBox.margin>
+                                               <Insets top="15.0" />
+                                           </VBox.margin>
+                                           <toggleGroup>
+                                               <ToggleGroup fx:id="colorRadio" />
+                                           </toggleGroup>
+                                       </RadioButton>
+                                       <RadioButton fx:id="blueRatio" mnemonicParsing="false" onAction="#changeFontColor" text="blue" toggleGroup="$colorRadio">
+                                           <VBox.margin>
+                                               <Insets top="15.0" />
+                                           </VBox.margin>
+                                       </RadioButton>
+                        <Button mnemonicParsing="false" onAction="#parseFile" text="Parse">
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Button>
+                                   </children>
+                               </VBox>
+                           </children>
+                       </HBox>
+                   </center>
+               </BorderPane>
+      <TextArea fx:id="nodeArea" layoutX="14.0" layoutY="321.0" prefHeight="233.0" prefWidth="452.0" />
+   </children>
+</Pane>
