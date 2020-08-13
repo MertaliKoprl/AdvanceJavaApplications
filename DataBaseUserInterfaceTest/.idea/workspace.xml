@@ -2,114 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/eclipselink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/ProjectStudent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/display.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/AdvanceJavaWeek7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/src/PairTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/libraries/mysql_connector_java_5_1_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/JavaDataBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/SQLs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/out/production/JavaDataBase/dBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/src/dBConnection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MertoBrowser/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MertoBrowser/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/MyMailApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/NewApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyCircle/MyCircle$CirclePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyCircle/MyCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/MainforList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/myListFxmlController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/mylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/openMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyCircle/MyCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/MainforList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/myListFxmlController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/mylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/openMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/META-INF/MessengerApplication.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/MessengerServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="816">
               <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -215,12 +125,12 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -250,12 +160,11 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="389" />
-    <option name="y" value="21" />
-    <option name="width" value="1532" />
-    <option name="height" value="1047" />
+    <option name="x" value="-1448" />
+    <option name="y" value="172" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -266,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +204,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +220,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576262419412" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectStudent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataBaseMonitoring" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -446,22 +355,24 @@
       <workItem from="1577427026131" duration="717000" />
       <workItem from="1578859041127" duration="31000" />
       <workItem from="1583077517984" duration="15000" />
+      <workItem from="1595611654069" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18053000" />
+    <option name="totallyTimeSpent" value="18059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.14326647" />
       <window_info id="Structure" order="5" weight="0.12405446" />
       <window_info id="Favorites" order="6" />
+      <window_info anchor="bottom" id="EvoSuite" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29321662" />
@@ -526,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="816">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,12 +446,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

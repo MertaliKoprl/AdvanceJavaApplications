@@ -2,67 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/eclipselink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/ProjectStudent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/CcrEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/Entities/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProjectStudent/src/View/display.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/AdvanceJavaWeek7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/src/PairTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/libraries/mysql_connector_java_5_1_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/JavaDataBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/SQLs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/out/production/JavaDataBase/dBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/src/dBConnection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MailApplication/Email/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/META-INF/MessengerApplication.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/MessengerServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectStudent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,10 +77,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email/Email.java">
+        <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Email/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="39" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="232">
+              <caret line="144" column="52" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Email/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/Email/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1513">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,13 +113,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="151" column="76" selection-start-line="151" selection-start-column="76" selection-end-line="151" selection-end-column="76" />
+        <entry file="file://$PROJECT_DIR$/src/Email/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1836">
+              <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -202,6 +174,8 @@
       <find>head</find>
       <find>display</find>
       <find>mailList</find>
+      <find>atta</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -224,12 +198,11 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="371" />
-    <option name="y" value="11" />
-    <option name="width" value="1170" />
-    <option name="height" value="1047" />
+    <option name="x" value="-1448" />
+    <option name="y" value="172" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -240,6 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,8 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,13 +255,14 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576329716405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595610223943" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessengerApplication" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ObjectToDb" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -424,16 +398,31 @@
       <workItem from="1577462490829" duration="1211000" />
       <workItem from="1577531371247" duration="17000" />
       <workItem from="1578859142088" duration="43000" />
+      <workItem from="1586118918593" duration="1061000" />
+      <workItem from="1586637414554" duration="225000" />
+      <workItem from="1589927104509" duration="674000" />
+      <workItem from="1589931421584" duration="887000" />
+      <workItem from="1589978445647" duration="6000" />
+      <workItem from="1589980656598" duration="3853000" />
+      <workItem from="1590075305677" duration="2587000" />
+      <workItem from="1590150724044" duration="2373000" />
+      <workItem from="1590282926494" duration="42000" />
+      <workItem from="1590327095100" duration="239000" />
+      <workItem from="1590397438175" duration="125000" />
+      <workItem from="1590399456444" duration="2155000" />
+      <workItem from="1595609361573" duration="964000" />
+      <workItem from="1595610640975" duration="29000" />
+      <workItem from="1595611484813" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66759000" />
+    <option name="totallyTimeSpent" value="82086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23773988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1704871" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32928678" />
       <window_info id="Designer" order="3" />
@@ -442,7 +431,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20592193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,6 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="bottom" id="EvoSuite" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,26 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../javax.mail (1).jar!/javax/mail/internet/MimeBodyPart.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -604,38 +574,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/Email.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1955">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Email/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="39" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="151" column="76" selection-start-line="151" selection-start-column="76" selection-end-line="151" selection-end-column="76" />
+    <entry file="file://$PROJECT_DIR$/src/Email/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/interface.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Email/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        <state relative-caret-position="232">
+          <caret line="144" column="52" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,7 +643,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

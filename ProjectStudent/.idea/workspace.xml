@@ -2,120 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d46f60-982b-44f4-a219-be70f676b57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JFlow&amp;Test/Parser/src/CompilationUnit/BlockStmt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFlow&amp;Test/Parser/src/CompilationUnit/MethodDecleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/eclipselink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectStudent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/CcrEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/CcrEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/display.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/leaf1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/leaf2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/root.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdvJavaSecond/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/AdvanceJavaWeek7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdvanceJavaWeek7/src/PairTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/out/production/CourseDemo/view/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseDemo/src/view/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseMonitoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataBaseUserInterfaceTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructors/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/aw_sheet.Fkz5mw.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/dataSources/6e3fe877-7619-4e8f-9239-048713f5514b/storage_v2/_src_/schema/cms.SYEBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/libraries/mysql_connector_java_5_1_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/JavaDataBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/SQLs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/out/production/JavaDataBase/dBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDataBase/src/dBConnection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPersistanceQueryLang/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MertoBrowser/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MertoBrowser/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/out/production/MailApplication/Email/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MailApplication/src/Email/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MertoBrowser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/MyMailApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyMailApp/src/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/NewApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyCircle/MyCircle$CirclePane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyCircle/MyCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/MainforList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/myListFxmlController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/MyList/mylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/openMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/out/production/NewApp/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyCircle/MyCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/MainforList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/myListFxmlController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/MyList/mylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/openMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewApp/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/META-INF/MessengerApplication.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessengerApplication/out/production/MessengerApplication/sample/MessengerServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ORM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/out/production/ObjectToDb/EclipseLink/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectToDb/src/EclipseLink/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abcabc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,19 +69,45 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/display.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="160" selection-start-line="9" selection-start-column="129" selection-end-line="9" selection-end-column="160" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1611">
+              <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#calculateCourseAverage#0;class#Controller#0" />
+                <element signature="method#calculateSlotAverage#0;class#Controller#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/src/View/leaf2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -249,8 +179,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1391" />
+    <option name="y" value="162" />
     <option name="width" value="1349" />
     <option name="height" value="1047" />
   </component>
@@ -260,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +236,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583335902890" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AdvJavaSecond" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataBaseUserInterfaceTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -400,17 +331,19 @@
       <workItem from="1583077534611" duration="1128000" />
       <workItem from="1583177212924" duration="1683000" />
       <workItem from="1583331557954" duration="1415000" />
+      <workItem from="1592558019297" duration="7000" />
+      <workItem from="1595233058738" duration="55000" />
+      <workItem from="1595611621528" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26772000" />
+    <option name="totallyTimeSpent" value="26865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1349" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1448" y="172" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20480993" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19770774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -433,6 +366,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32932165" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="EvoSuite" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,18 +504,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entities/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/View/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#calculateCourseAverage#0;class#Controller#0" />
-            <element signature="method#calculateSlotAverage#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/javafx-src.zip!/javafx/beans/property/ReadOnlyIntegerPropertyBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -606,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entities/CcrEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -627,17 +539,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/display.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="160" selection-start-line="9" selection-start-column="129" selection-end-line="9" selection-end-column="160" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/root.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/leaf2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1611">
+          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#calculateCourseAverage#0;class#Controller#0" />
+            <element signature="method#calculateSlotAverage#0;class#Controller#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,17 +586,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/leaf2.java">
+    <entry file="file://$PROJECT_DIR$/src/View/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -109,7 +109,6 @@ public class Controller implements Initializable {
 
     public void sendMail(ActionEvent actionEvent) {
         if (isLogedIn) {
-            if (!isMailSelected) {
                 Properties props = new Properties();
                 props.put("mail.smtp.host", "smtp.gmail.com");
                 props.put("mail.smtp.port", "465");
@@ -160,12 +159,6 @@ public class Controller implements Initializable {
                 } catch (MessagingException mex) {
                     System.out.println("send failed, exception: " + mex);
                 }
-
-
-            } else {
-                JOptionPane.showMessageDialog(null, "You can not send received Mail Try Forward!", "Info", JOptionPane.INFORMATION_MESSAGE);
-
-            }
         } else
             JOptionPane.showMessageDialog(null, "Login First!", "Request", JOptionPane.ERROR_MESSAGE);
     }
@@ -480,15 +473,16 @@ public class Controller implements Initializable {
         System.out.println("I AM FILE"+filename);
         System.out.println("I am Dest"+dest);
         boolean ren = true;
-        FileOutputStream fos = null;
-        BufferedInputStream fin = null;
-        InputStream input = part.getInputStream();
+
+
 
         File pdffile = new File(dest+"\\"+filename);
         try{
             if(!pdffile.exists()){
-                fos = new FileOutputStream(pdffile);
-                fin = new BufferedInputStream(input);
+                InputStream input = part.getInputStream();
+                FileOutputStream fos = new FileOutputStream(pdffile);
+                BufferedInputStream fin = new BufferedInputStream(input);
+
                 int size = 512;
                 byte[] buf = new byte[size];
                 int len;
